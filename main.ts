@@ -1,8 +1,8 @@
 while (true) {
-    if (input.soundLevel() > 150) {
-        light.setAll(color.rgb(0, 255, 0))
+    if (input.lightLevel() > 50) {
+        music.playMelody("A B C D E F G H I J K L M N O P", 120)
     } else {
-        light.clear
+        light.clear()
     }
     
 }
